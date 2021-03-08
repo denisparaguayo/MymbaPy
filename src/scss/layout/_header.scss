@@ -9,6 +9,7 @@
     text-align: center;
     margin-bottom: 4rem;
     margin-top: 3rem;
+    color: $morado;
 
 }
 .overlay h3{
@@ -17,8 +18,18 @@
 
 .overlay p{
     text-align: center;
+}.btn__overlay{
+    display: block;
+    color: $morado;
+    padding: 1rem 3rem;
+    font-family: $fuentePrincipal;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 2REM;
+    text-transform: uppercase;
+    border: none;
 }
-
 
 
 
