@@ -1,0 +1,33 @@
+{
+  "name": "mymbapy",
+  "version": "1.0.0",
+  "description": "Web donde las personas Buscan a sus mascotas perdidad y dan en adpcion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denisparaguayo/MymbaPy.git"
+  },
+  "keywords": [
+    "mascota",
+    "pet",
+    "perdido"
+  ],
+  "author": "Denis Cantero & Mathias Galeano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denisparaguayo/MymbaPy/issues"
+  },
+  "homepage": "https://github.com/denisparaguayo/MymbaPy#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-scss": "^1.4.0",
+    "gulp-webp": "^4.0.1"
+  }
+}
