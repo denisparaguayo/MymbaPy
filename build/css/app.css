@@ -6,6 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -351,3 +352,12 @@ h3 {
 
 .bg-amarillo {
   background-color: #fef46d; }
+
+.overlay h1 {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-size: 5rem;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 4rem;
+  margin-top: 3rem; }
