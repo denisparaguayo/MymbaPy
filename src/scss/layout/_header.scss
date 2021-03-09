@@ -114,11 +114,13 @@ header::after{
   .site-nav li{
       display: inline-block;
       border: none;
+      border-right: 1px solid $blanco;
   }
 
   .site-nav a{
       padding: 0;
-      margin-left: 1rem;
+      margin-left: 2rem;
+      margin-right: .8rem;
   }
   .site-nav--icon{
       display: none;
