@@ -4,20 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MymbaPy - Busca tu Mascota</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
    <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
     <header>
-        <div class="overlay contenedor">
-            <div class="overlay__logo">
-                <img src="build/img/logo.svg" width="200" height="150" alt="">
-
-            </div>
-            <h1>Buscamos Tu mascota</h1>
-            <h3>¡NO ME DES POR PERDIDO!
-            </h3>
-            <p>Ahora con MymbaPy podrás localizar cualquier mascota que hayas perdido, y publicar anuncios de aquellas que encuentres, o incluso busquen un hogar.</p>
-            <a class="btn__overlay" href="">Buscar</a>
+        <div class="contenedor">
+            <h1 class="logo">Logo <span>Empresa</span></h1>
+        </div>
+        <nav id="site-nav" class="site-nav">
+            <ul>
+                <li><a href="#"><i class="fa fa-home site-nav--icon"></i>Inicio -</a></li>
+                <li><a href="#"><i class="fa fa-info site-nav--icon"></i>Mascotas Perdidas -</a></li>
+                <li><a href="#"><i class="fa fa-pencil-alt site-nav--icon"></i>Mascotas Encontradas -</a></li>
+                <li><a href="#"><i class="fa fa-dollar-sign site-nav--icon"></i>Mascotas en Adopción -</a></li>
+                <li><a href="#"><i class="fa fa-envelope site-nav--icon"></i>Contacto</a></li>
+            </ul>
+        </nav>
+        <div id="menu-toggle" class="menu-toggle" onClick="cambiarClase()">
+            <div class="hamburger"></div>
         </div>
     </header>
     
