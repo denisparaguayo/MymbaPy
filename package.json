@@ -23,7 +23,9 @@
   "homepage": "https://github.com/denisparaguayo/MymbaPy#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
     "gulp-concat": "^2.6.1",
+    "gulp-dart-sass": "^1.0.2",
     "gulp-imagemin": "^7.1.0",
     "gulp-notify": "^3.2.0",
     "gulp-webp": "^4.0.1"
