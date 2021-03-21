@@ -26,8 +26,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^7.1.0",
     "gulp-notify": "^3.2.0",
-    "gulp-sass": "^4.1.0",
-    "gulp-scss": "^1.4.0",
+    "gulp-dart-sass": "^1.0.2",
     "gulp-webp": "^4.0.1"
   }
 }
